@@ -11,3 +11,59 @@
     text-decoration: none;
     font-family: 'Oswald';
 }
+
+body { background: rgb(59, 149, 185); }
+
+/* Надпись погодное приложение */
+
+.weather-label {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.weather-status-img-container { 
+    text-align: center; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.weather-status-img-container img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/* Стили для поля ввода города */
+
+.input-city {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.input-city input {
+    width: 300px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(59, 149, 185);
+}
+
+.input-city input:focus {
+    border: 1px solid white;
+}
+
+/* Кнопка */
+
+.button-get-weather { text-align: center; }
+
+.button-get-weather button {
+    margin-top: 20px;
+    padding: 15px;
+    width: 175px;
+    color: black;
+}
+
+.button-get-weather button:hover {
+    cursor: pointer;
+    background: yellow;
+}
