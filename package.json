@@ -1,0 +1,16 @@
+{
+  "name": "weatherwebapp",
+  "version": "1.0.0",
+  "description": "Weather web app ",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Web",
+    "WebApp",
+    "Weather"
+  ],
+  "author": "Dmitriy <freeze.fox@bk.ru>",
+  "license": "ISC"
+}
