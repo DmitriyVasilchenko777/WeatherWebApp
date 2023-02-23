@@ -22,6 +22,8 @@ body { background: rgb(59, 149, 185); }
     margin-top: 80px;
 }
 
+/* Логотип солнца за облаком */
+
 .weather-status-img-container { 
     text-align: center; 
     padding-top: 50px;
@@ -48,11 +50,9 @@ body { background: rgb(59, 149, 185); }
     border: 1px solid rgb(59, 149, 185);
 }
 
-.input-city input:focus {
-    border: 1px solid white;
-}
+.input-city input:focus { border: 1px solid white }
 
-/* Кнопка */
+/* Кнопка получения погоды */
 
 .button-get-weather { text-align: center; }
 
@@ -66,4 +66,13 @@ body { background: rgb(59, 149, 185); }
 .button-get-weather button:hover {
     cursor: pointer;
     background: yellow;
+}
+
+/* Поле вывода  результата */
+
+.text-weather-result {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
 }

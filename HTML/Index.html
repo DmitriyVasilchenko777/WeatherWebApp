@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" href="../ICON/WeatherIcon.png">
+        <link rel="icon" href="../ICON/WeatherIconLogo.png">
         <link rel="stylesheet" href="../CSS/Styles.css">
 
         <title>Погодное приложение!</title>
@@ -14,16 +14,19 @@
         <h1 class="weather-label">Погодное приложение!</h1>
 
         <div class="weather-status-img-container">
-            <img src="../ICON/WeatherIcon.png" alt="">
+            <img src="../ICON/WeatherIcon.png" alt="Солнце скрытое за облаком">
         </div>
 
         <div class="input-city">
-            <input type="text" placeholder="Введите свой город...">
+            <input type="text" placeholder="Введите свой город..." id="input-city-weather">
         </div>
 
         <div class="button-get-weather">
-            <button>ПОЛУЧИТЬ ПОГОДУ</button>
+            <button id="btn-get-weather">ПОЛУЧИТЬ ПОГОДУ</button>
         </div>
+
+        <div class="text-weather-result" id="weather-result"></div>
+
         <script src="../JS/Index.js"></script>
     </body>
 </html>
